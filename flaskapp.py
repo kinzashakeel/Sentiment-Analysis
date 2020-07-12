@@ -41,7 +41,7 @@ def results():
         return render_template('results.html',content=review,prediction=y,probability=round(proba*100, 2))
         return render_template('reviewform.html', form=form)
 if __name__ == '__main__':
-     app.run(debug=True)
+     app.run(debug=False)
 
 
 # In[ ]:
