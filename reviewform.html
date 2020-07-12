@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+ <head>
+ <title>Movie Classification</title>
+ 
+ </head>
+ <body>
+<h2>Please enter your movie review:</h2>
+<form action="/results">
+ <dl>
+ {{ form.moviereview ( cols='30', rows='10') }}
+ </dl>
+ <div>
+ <input method="post" type="submit" value='Submit review' name='submit_btn'>
+ </div>
+</form>
+</body>
+</html>
