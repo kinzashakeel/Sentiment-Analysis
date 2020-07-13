@@ -44,5 +44,6 @@ And <br/>
 The next page will display the <b> Prediction </b> about the "sentiment" analyzed by our trained model out of your review. <br/>
 It can be either positive or negative alongwith a probablitiy percetage. The percenaage will show how much probabality is there that the predicted sentiment is correct about the entered review.
 </p>
-![](sc1.png)
+<img src="sc1.PNG"/>
+<img src="sc2.PNG"/>
 
